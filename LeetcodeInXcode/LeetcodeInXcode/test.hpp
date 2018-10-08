@@ -9,6 +9,17 @@
 #ifndef test_hpp
 #define test_hpp
 
-#include <stdio.h>
+class A{
+private:
+    const int a;
+public:
+    //A(){};
+    A(int x):a(x){};
+    
+    int getvalue(){return a;};
+    int getvalue() const;
+    
+    
+};
 
 #endif /* test_hpp */

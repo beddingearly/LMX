@@ -29,10 +29,10 @@ public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
         ListNode *a = new ListNode(-1);
         ListNode* p = a;
-        p = p->next;
+        //p = p->next;
         int flag = 0;
         while (l1 && l2) {
-            int tmp = l1->val + l2->val;
+            int tmp = l1->val + l2->val +flag;
             if (tmp > 9){
                 tmp -= 10;
                 flag = 1;
