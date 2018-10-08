@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		356C45F2216ADB160043924E /* 2_Add_Two_Numbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 356C45F1216ADB160043924E /* 2_Add_Two_Numbers.cpp */; };
+		356C45F5216ADB290043924E /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 356C45F4216ADB290043924E /* test.cpp */; };
 		359AFEB72126C0EF009FC9F8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 359AFEB62126C0EF009FC9F8 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		356C45F1216ADB160043924E /* 2_Add_Two_Numbers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 2_Add_Two_Numbers.cpp; sourceTree = "<group>"; };
+		356C45F3216ADB220043924E /* 2_Add_Two_Numbers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = 2_Add_Two_Numbers.hpp; sourceTree = "<group>"; };
+		356C45F4216ADB290043924E /* test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
+		356C45F6216ADB300043924E /* test.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = test.hpp; sourceTree = "<group>"; };
 		359AFEB32126C0EF009FC9F8 /* LeetcodeInXcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetcodeInXcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		359AFEB62126C0EF009FC9F8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,6 +63,10 @@
 		359AFEB52126C0EF009FC9F8 /* LeetcodeInXcode */ = {
 			isa = PBXGroup;
 			children = (
+				356C45F1216ADB160043924E /* 2_Add_Two_Numbers.cpp */,
+				356C45F3216ADB220043924E /* 2_Add_Two_Numbers.hpp */,
+				356C45F4216ADB290043924E /* test.cpp */,
+				356C45F6216ADB300043924E /* test.hpp */,
 				359AFEB62126C0EF009FC9F8 /* main.cpp */,
 			);
 			path = LeetcodeInXcode;
@@ -118,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				356C45F2216ADB160043924E /* 2_Add_Two_Numbers.cpp in Sources */,
 				359AFEB72126C0EF009FC9F8 /* main.cpp in Sources */,
+				356C45F5216ADB290043924E /* test.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
