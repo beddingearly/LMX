@@ -12,14 +12,15 @@
 class A{
 private:
     const int a;
+    
 public:
     //A(){};
     A(int x):a(x){};
-    
+    static int b;
     int getvalue(){return a;};
     int getvalue() const;
     
     
 };
-
+int A::b = 3;
 #endif /* test_hpp */
